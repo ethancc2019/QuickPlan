@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CompletedTasks"
+    tools:showIn="@layout/activity_completed_tasks">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cardView"
+        android:layout_width="395dp"
+        android:layout_height="142dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="100dp"
+            android:text="..."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="84dp"
+            android:layout_height="24dp"
+            android:text="Task Name"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="84dp"
+            android:layout_height="22dp"
+            android:text="Due Date"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="55dp"
+            android:layout_height="19dp"
+            android:text="Priority"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="44dp"
+            android:layout_height="18dp"
+            android:text="1-5"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="109dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:checked="true"
+            android:clickable="true"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="53dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cardView"
+        android:layout_width="395dp"
+        android:layout_height="142dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348">
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:checked="true"
+            android:clickable="true"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="100dp"
+            android:text="..."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="84dp"
+            android:layout_height="24dp"
+            android:text="Task Name"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="19dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="84dp"
+            android:layout_height="22dp"
+            android:text="Due Date"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="55dp"
+            android:layout_height="19dp"
+            android:text="Priority"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="44dp"
+            android:layout_height="18dp"
+            android:text="1-5"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="90dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="109dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cardView"
+        android:layout_width="395dp"
+        android:layout_height="142dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657">
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:checked="true"
+            android:clickable="true"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="100dp"
+            android:text="..."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="84dp"
+            android:layout_height="24dp"
+            android:text="Task Name"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="84dp"
+            android:layout_height="22dp"
+            android:text="Due Date"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="55dp"
+            android:layout_height="19dp"
+            android:text="Priority"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="44dp"
+            android:layout_height="18dp"
+            android:text="1-5"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="87dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="109dp" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
