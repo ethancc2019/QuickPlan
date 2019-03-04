@@ -1,5 +1,6 @@
 package com.example.qp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,6 +21,10 @@ public class CreateTask extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Task newTask = new Task();
+<<<<<<< HEAD
+=======
+                goBackToHomepage();
+>>>>>>> 6092dbe32f23e4c9fffc54e167ce814b1eac1277
                 EditText taskName = (EditText) findViewById(R.id.taskName);
                 EditText priority = (EditText) findViewById(R.id.priorityNum);
                 EditText taskNotes = (EditText) findViewById(R.id.taskNotes);
@@ -38,10 +43,22 @@ public class CreateTask extends AppCompatActivity {
 
         });
 
+<<<<<<< HEAD
     }
 
     public void saveTask(Task newTask){
         //Save task in some sort of array list.
+=======
+    }
+
+    public void saveTask(Task newTask){
+        //Save task in some sort of array list.
+    }
+
+    public void goBackToHomepage(){
+        Intent homePage = new Intent(this, MainActivity.class);
+        startActivity(homePage);
+>>>>>>> 6092dbe32f23e4c9fffc54e167ce814b1eac1277
     }
 
 }
