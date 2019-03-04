@@ -21,6 +21,7 @@ public class CreateTask extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Task newTask = new Task();
+
                 goBackToHomepage();
 
 //                EditText taskName = (EditText) findViewById(R.id.taskName);
@@ -45,15 +46,14 @@ public class CreateTask extends AppCompatActivity {
 
     public void saveTask(Task newTask){
         //Save task in some sort of array list.
+        //Sort array list by priority
+
+
     }
 
     public void goBackToHomepage(){
         startActivity(new Intent(CreateTask.this, MainActivity.class));
     }
 
-    public void Test()
-    {
-        //new methodssssss
 
-    }
 }
