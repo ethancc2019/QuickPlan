@@ -22,6 +22,7 @@ public class CreateTask extends AppCompatActivity {
             public void onClick(View v) {
                 Task newTask = new Task();
                 goBackToHomepage();
+
                 EditText taskName = (EditText) findViewById(R.id.taskName);
                 EditText priority = (EditText) findViewById(R.id.priorityNum);
                 EditText taskNotes = (EditText) findViewById(R.id.taskNotes);
@@ -47,8 +48,12 @@ public class CreateTask extends AppCompatActivity {
     }
 
     public void goBackToHomepage(){
-        Intent homePage = new Intent(this, MainActivity.class);
-        startActivity(homePage);
+
+    }
+
+
+    public void newFunction(){
+
     }
 
 }
