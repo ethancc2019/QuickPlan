@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openCreateTaskActivity(){
-        Intent intent = new Intent(this, CreateTask.class);
-        startActivity(intent);
+        startActivity(new Intent(MainActivity.this, CreateTask.class));
     }
 
     @Override

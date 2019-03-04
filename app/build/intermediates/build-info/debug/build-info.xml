@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.3.1"
-    timestamp="1551731799115"
+    timestamp="1551734108304"
     token="7070180004736191423"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="949" />
+        duration="280" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="156" />
+        duration="10" />
     <task
         name="verifier"
-        duration="30" />
+        duration="4" />
 
     <artifact
         location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -30,10 +30,22 @@
 
     <build
         build-mode="FULL"
-        timestamp="1551731654934"
+        timestamp="1551733805799"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
+            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -42,19 +54,13 @@
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -63,19 +69,13 @@
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1551731799115"
+        timestamp="1551734108304"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
