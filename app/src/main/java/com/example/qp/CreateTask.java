@@ -49,4 +49,10 @@ public class CreateTask extends AppCompatActivity {
     public void goBackToHomepage(){
 
     }
+
+
+    public void newFunction(){
+
+    }
+
 }
