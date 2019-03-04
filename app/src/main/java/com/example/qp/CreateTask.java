@@ -11,8 +11,6 @@ import android.widget.EditText;
 public class CreateTask extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
-    @Override
-    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_task);
 
@@ -45,6 +43,7 @@ public class CreateTask extends AppCompatActivity {
 
     }
 
+
     public void saveTask(Task newTask){
         //Save task in some sort of array list.
     }
@@ -58,4 +57,5 @@ public class CreateTask extends AppCompatActivity {
         //new methodssssss
 
     }
+
 }
