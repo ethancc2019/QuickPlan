@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Mon Mar 04 15:25:06 PST 2019
+=======
+#Mon Mar 04 15:28:12 PST 2019
+>>>>>>> 21cc257bc76ed7e1734ea792606fbd05e845a371
 base.0=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex

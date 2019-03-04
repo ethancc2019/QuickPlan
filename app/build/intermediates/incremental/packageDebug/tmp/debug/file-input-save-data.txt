@@ -1,5 +1,9 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Mon Mar 04 15:25:07 PST 2019
+=======
+#Mon Mar 04 15:28:13 PST 2019
+>>>>>>> 21cc257bc76ed7e1734ea792606fbd05e845a371
 4.path=classes.dex
 8.set=DEX
 6.path=classes.dex
