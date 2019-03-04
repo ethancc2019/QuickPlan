@@ -1,11 +1,8 @@
 package com.example.qp;
 
-<<<<<<< HEAD
 import android.support.v4.*;
-=======
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
->>>>>>> eca593115dac218d585842ce4188fc5c9dbbb9ab
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,12 +10,9 @@ import android.widget.EditText;
 
 public class CreateTask extends AppCompatActivity {
 
-<<<<<<< HEAD
     protected void onCreate(Bundle savedInstanceState) {
-=======
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
->>>>>>> eca593115dac218d585842ce4188fc5c9dbbb9ab
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_task);
 
