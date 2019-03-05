@@ -48,6 +48,7 @@ public class CreateTask extends AppCompatActivity {
         //Save task in some sort of array list.
         MainActivity mainActivity = new MainActivity();
         mainActivity.globalTaskList.add(newTask);
+        //New editions
     }
 
     public void goBackToHomepage(){
