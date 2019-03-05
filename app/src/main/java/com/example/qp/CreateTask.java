@@ -1,5 +1,6 @@
 package com.example.qp;
 
+import android.support.v4.*;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,8 +10,7 @@ import android.widget.EditText;
 
 public class CreateTask extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(final Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_task);
 
@@ -43,6 +43,7 @@ public class CreateTask extends AppCompatActivity {
 
     }
 
+
     public void saveTask(Task newTask){
         //Save task in some sort of array list.
     }
@@ -57,7 +58,11 @@ public class CreateTask extends AppCompatActivity {
 
     }
 
+<<<<<<< HEAD
     public void newAnthonyMethod(){
         //new method
     }
 }
+=======
+}
+>>>>>>> 0bb144bbe7086916ee6c1e8d58c8b1942377b8f7

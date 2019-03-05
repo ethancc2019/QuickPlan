@@ -10,8 +10,16 @@ public class Task {
     public int priority;
     public String description;
 
+    //Default constuctor
+    public Task(String taskName, Date dueDate, Time timeDueDate, int priority, String description) {
+        this.taskName = taskName;
+        this.dueDate = dueDate;
+        this.timeDueDate = timeDueDate;
+        this.priority = priority;
+        this.description = description;
+    }
 
-    //Constructor
+    // Fall back Constructor
     public Task() {
         this.taskName = "";
         this.dueDate = new Date();
