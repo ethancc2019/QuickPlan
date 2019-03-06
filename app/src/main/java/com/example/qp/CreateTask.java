@@ -46,6 +46,8 @@ public class CreateTask extends AppCompatActivity {
 
     public void saveTask(Task newTask){
         //Save task in some sort of array list.
+        MainActivity mainActivity = new MainActivity();
+        mainActivity.globalTaskList.add(newTask);
     }
 
     public void goBackToHomepage(){
@@ -58,11 +60,9 @@ public class CreateTask extends AppCompatActivity {
 
     }
 
-<<<<<<< HEAD
     public void newAnthonyMethod(){
         //new method
     }
 }
-=======
-}
->>>>>>> 0bb144bbe7086916ee6c1e8d58c8b1942377b8f7
+
+
