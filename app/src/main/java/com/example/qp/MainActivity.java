@@ -8,8 +8,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    public ArrayList<Task> globalTaskList;
+    public ArrayList<Task> globalCompletedTaskList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
                 openCreateTaskActivity();
             }
         });
+
+
+
     }
 
     public void openCreateTaskActivity(){

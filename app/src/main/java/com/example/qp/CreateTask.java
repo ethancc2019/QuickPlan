@@ -23,17 +23,17 @@ public class CreateTask extends AppCompatActivity {
                 Task newTask = new Task();
                 goBackToHomepage();
 
-//                EditText taskName = (EditText) findViewById(R.id.taskName);
-//                EditText priority = (EditText) findViewById(R.id.priorityNum);
-//                EditText taskNotes = (EditText) findViewById(R.id.taskNotes);
-//                EditText dueDate = (EditText) findViewById(R.id.taskDueDate);
-//
-//                newTask.setTaskName(taskName.getText().toString());
-//                newTask.setPriority(Integer.parseInt(priority.toString()));
-//                newTask.setDescription(taskNotes.getText().toString());
-//                //Need to be able to save the date object. Will keep as string for now
-//                //newTask.setDueDate();
-//                saveTask(newTask);
+                EditText taskName = (EditText) findViewById(R.id.taskName);
+                EditText priority = (EditText) findViewById(R.id.priorityNum);
+                EditText taskNotes = (EditText) findViewById(R.id.taskNotes);
+                EditText dueDate = (EditText) findViewById(R.id.taskDueDate);
+
+                newTask.setTaskName(taskName.getText().toString());
+//              newTask.setPriority(Integer.parseInt(priority.toString())); // the problem
+                newTask.setDescription(taskNotes.getText().toString());
+                //Need to be able to save the date object. Will keep as string for now
+                //newTask.setDueDate();
+                saveTask(newTask);
 
             }
 
@@ -46,18 +46,21 @@ public class CreateTask extends AppCompatActivity {
 
     public void saveTask(Task newTask){
         //Save task in some sort of array list.
+        MainActivity mainActivity = new MainActivity();
+        mainActivity.globalTaskList.add(newTask);
+
     }
 
     public void goBackToHomepage(){
         startActivity(new Intent(CreateTask.this, MainActivity.class));
     }
 
-    public void Test()
-    {
-        //new methodssssss
 
+    public void printNow(){
+        System.out.println("Hello");
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public void newAnthonyMethod(){
         //new method
@@ -66,3 +69,7 @@ public class CreateTask extends AppCompatActivity {
 =======
 }
 >>>>>>> 0bb144bbe7086916ee6c1e8d58c8b1942377b8f7
+=======
+
+}
+>>>>>>> 1a67bfeddfd40e5ff5af25d3b8891bf02fe0003c
