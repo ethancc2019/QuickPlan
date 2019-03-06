@@ -10,6 +10,9 @@ import android.widget.EditText;
 
 public class CreateTask extends AppCompatActivity {
 
+    //Global variable for the array list of tasks
+    MainActivity mainActivity = new MainActivity();
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_task);
@@ -45,10 +48,9 @@ public class CreateTask extends AppCompatActivity {
 
 
     public void saveTask(Task newTask){
-        //Save task in some sort of array list.
-        MainActivity mainActivity = new MainActivity();
+        //Saves task in array list
         mainActivity.globalTaskList.add(newTask);
-
+        //mainActivity.globalTaskList.sort();
     }
 
     public void goBackToHomepage(){
