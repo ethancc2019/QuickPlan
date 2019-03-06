@@ -12,16 +12,9 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
     </content>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
-=======
-    <orderEntry type="inheritedJdk" />
->>>>>>> Deva
-=======
-    <orderEntry type="inheritedJdk" />
->>>>>>> 0bb144bbe7086916ee6c1e8d58c8b1942377b8f7
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
