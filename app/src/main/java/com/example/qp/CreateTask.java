@@ -1,21 +1,26 @@
 package com.example.qp;
 
+import android.support.v4.*;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 
 public class CreateTask extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(final Bundle savedInstanceState) {
+    //Global variable for the array list of tasks
+    MainActivity mainActivity = new MainActivity();
+
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_task);
 
 
         Button saveTaskBtn = findViewById(R.id.saveTaskButton);
+        CheckBox box = new CheckBox();
 
         saveTaskBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,17 +28,17 @@ public class CreateTask extends AppCompatActivity {
                 Task newTask = new Task();
                 goBackToHomepage();
 
-//                EditText taskName = (EditText) findViewById(R.id.taskName);
-//                EditText priority = (EditText) findViewById(R.id.priorityNum);
-//                EditText taskNotes = (EditText) findViewById(R.id.taskNotes);
-//                EditText dueDate = (EditText) findViewById(R.id.taskDueDate);
-//
-//                newTask.setTaskName(taskName.getText().toString());
-//                newTask.setPriority(Integer.parseInt(priority.toString()));
-//                newTask.setDescription(taskNotes.getText().toString());
-//                //Need to be able to save the date object. Will keep as string for now
-//                //newTask.setDueDate();
-//                saveTask(newTask);
+                EditText taskName = (EditText) findViewById(R.id.taskName);
+                EditText priority = (EditText) findViewById(R.id.priorityNum);
+                EditText taskNotes = (EditText) findViewById(R.id.taskNotes);
+                EditText dueDate = (EditText) findViewById(R.id.taskDueDate);
+
+                newTask.setTaskName(taskName.getText().toString());
+//              newTask.setPriority(Integer.parseInt(priority.toString())); // the problem
+                newTask.setDescription(taskNotes.getText().toString());
+                //Need to be able to save the date object. Will keep as string for now
+                //newTask.setDueDate();
+                saveTask(newTask);
 
             }
 
@@ -43,21 +48,26 @@ public class CreateTask extends AppCompatActivity {
 
     }
 
+
     public void saveTask(Task newTask){
-        //Save task in some sort of array list.
+        //Saves task in array list
+        mainActivity.globalTaskList.add(newTask);
+        //mainActivity.globalTaskList.sort();
     }
 
     public void goBackToHomepage(){
         startActivity(new Intent(CreateTask.this, MainActivity.class));
     }
 
-    public void Test()
-    {
-        //new methodssssss
 
+<<<<<<< HEAD
     }
 
     public void newAnthonyMethod(){
         //new method
     }
 }
+=======
+
+}
+>>>>>>> b0c91a2b66d945857325ae8bb0c4560694db0133
