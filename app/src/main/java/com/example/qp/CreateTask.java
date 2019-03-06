@@ -20,7 +20,6 @@ public class CreateTask extends AppCompatActivity {
 
 
         Button saveTaskBtn = findViewById(R.id.saveTaskButton);
-        CheckBox box = new CheckBox();
 
         saveTaskBtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -40,9 +40,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
+
 
     public void openCreateTaskActivity(){
         startActivity(new Intent(MainActivity.this, CreateTask.class));
