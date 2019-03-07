@@ -6,13 +6,7 @@
     density="560dpi"
     format="10"
     plugin-version="3.3.1"
-<<<<<<< HEAD
-    timestamp="1551742002886"
-=======
-    timestamp="1551742152841"
->>>>>>> 21cc257bc76ed7e1734ea792606fbd05e845a371
-    token="7070180004736191423"
-    verifier="FULL_BUILD_REQUESTED" >
+/>
 
     <task
         name="javac"
@@ -101,13 +95,8 @@
         type="SPLIT_MAIN" />
 
     <build
-        build-mode="FULL"
-<<<<<<< HEAD
-        timestamp="1551742002886"
-=======
-        timestamp="1551742152841"
->>>>>>> 21cc257bc76ed7e1734ea792606fbd05e845a371
-        verifier="FULL_BUILD_REQUESTED" >
+        build-mode="FULL"/>
+
         <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />

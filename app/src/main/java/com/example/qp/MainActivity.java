@@ -9,8 +9,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import static java.lang.System.in;
 
 public class MainActivity extends AppCompatActivity {
     public ArrayList<Task> globalTaskList;
@@ -40,12 +44,29 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buildTaskCard();
+
 
 
     }
 
     public void openCreateTaskActivity(){
         startActivity(new Intent(MainActivity.this, CreateTask.class));
+    }
+
+    public void buildTaskCard(){
+        for (Task task: globalTaskList) {
+            TextView taskName = findViewById(R.id.taskName02);
+            TextView description = findViewById(R.id.description02);
+            TextView priority = findViewById(R.id.numPriority02);
+            TextView dueDate = findViewById(R.id.dueDateDesc02);
+
+            taskName.setText(task.taskName);
+            description.setText(task.description);
+            priority.setText(task.priority);
+            dueDate.setText(task.dueDate);
+        }
+
     }
 
     @Override

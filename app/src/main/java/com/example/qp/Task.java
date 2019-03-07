@@ -5,14 +5,15 @@ import java.util.Date;
 
 public class Task {
     public String taskName;
-    public Date dueDate;
+    //public Date dueDate;
+    public String dueDate;
     public Time timeDueDate;
     public int priority;
     public String description;
     public boolean completed;
 
     //Default constuctor
-    public Task(String taskName, Date dueDate, Time timeDueDate, int priority, String description) {
+    public Task(String taskName, String dueDate, Time timeDueDate, int priority, String description) {
         this.taskName = taskName;
         this.dueDate = dueDate;
         this.timeDueDate = timeDueDate;
@@ -23,7 +24,7 @@ public class Task {
     // Fall back Constructor
     public Task() {
         this.taskName = "";
-        this.dueDate = new Date();
+        this.dueDate = "01/01/1990";
         this.timeDueDate = null;
         this.priority = 0;
         this.description = "";
@@ -37,11 +38,11 @@ public class Task {
         this.taskName = taskName;
     }
 
-    public Date getDueDate() {
+    public String  getDueDate() {
         return dueDate;
     }
 
-    public void setDueDate(Date dueDate) {
+    public void setDueDate(String dueDate) {
         this.dueDate = dueDate;
     }
 
@@ -63,6 +64,14 @@ public class Task {
 
     public String getDescription() {
         return description;
+    }
+
+    public boolean isCompleted() {
+        return completed;
+    }
+
+    public void setCompleted(boolean completed) {
+        this.completed = completed;
     }
 
     public void setDescription(String description) {
