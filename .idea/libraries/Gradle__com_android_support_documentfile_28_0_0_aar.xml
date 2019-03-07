@@ -1,13 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:documentfile:28.0.0@aar">
     <CLASSES>
-<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/414d5c10ef0ad43ad006cf7d5bd79a46/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/414d5c10ef0ad43ad006cf7d5bd79a46/jars/classes.jar!/" />
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1804411d23c05f552c3fbac27e0ec20e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1804411d23c05f552c3fbac27e0ec20e/res" />
->>>>>>> 1a67bfeddfd40e5ff5af25d3b8891bf02fe0003c
     </CLASSES>
     <JAVADOC />
     <SOURCES />

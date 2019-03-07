@@ -1,51 +1,7 @@
 #Internal package file, do not edit.
-<<<<<<< HEAD
-#Mon Mar 04 15:25:07 PST 2019
-=======
-#Mon Mar 04 15:28:13 PST 2019
->>>>>>> 21cc257bc76ed7e1734ea792606fbd05e845a371
-4.path=classes.dex
-8.set=DEX
-6.path=classes.dex
+#Wed Mar 06 15:06:42 PST 2019
 0.baseType=DIRECTORY
-10.path=classes.dex
-5.baseType=DIRECTORY
-1.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/11
-8.path=classes.dex
-3.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/14
-4.set=DEX
-5.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/12
-7.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/19
-9.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/15
-1.baseType=DIRECTORY
-0.set=DEX
-6.baseType=DIRECTORY
-7.set=DEX
-3.set=DEX
-2.baseType=DIRECTORY
-10.baseType=DIRECTORY
-1.path=classes.dex
-7.baseType=DIRECTORY
-3.path=classes.dex
-10.set=DEX
-5.path=classes.dex
-0.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/13
-7.path=classes.dex
-9.path=classes.dex
-6.set=DEX
-2.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/16
-4.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/21
-3.baseType=DIRECTORY
-6.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/20
-10.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/17
-8.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/18
-2.set=DEX
-8.baseType=DIRECTORY
-9.set=DEX
-count=11
-4.baseType=DIRECTORY
-5.set=DEX
-9.baseType=DIRECTORY
+0.base=/Users/john.storie420/StudioProjects/QuickPlan/app/build/intermediates/dex/debug/mergeDexDebug/out
 0.path=classes.dex
-1.set=DEX
-2.path=classes.dex
+0.set=DEX
+count=1
