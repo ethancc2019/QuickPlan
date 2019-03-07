@@ -1,0 +1,4 @@
+#Wed Mar 06 15:58:52 PST 2019
+base.0=/Users/anthony.volkov384/AndroidStudioProjects/QuickPlan/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

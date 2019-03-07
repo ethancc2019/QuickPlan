@@ -26,9 +26,6 @@ public class AllTasks extends AppCompatActivity {
 //            }
 //        });
 
-
-        CheckBox box = new CheckBox();
-        box.isChecked()
     }
 
 }
