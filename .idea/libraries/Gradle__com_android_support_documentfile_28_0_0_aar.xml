@@ -2,12 +2,17 @@
   <library name="Gradle: com.android.support:documentfile:28.0.0@aar">
     <CLASSES>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/185116771489edf3dc7a405be019bd0a/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/185116771489edf3dc7a405be019bd0a/res" />
 =======
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1804411d23c05f552c3fbac27e0ec20e/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1804411d23c05f552c3fbac27e0ec20e/res" />
 >>>>>>> 7e840331fc2f18103ce5f8214392cb76b9afb1ee
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/414d5c10ef0ad43ad006cf7d5bd79a46/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/414d5c10ef0ad43ad006cf7d5bd79a46/jars/classes.jar!/" />
+>>>>>>> DevJ
     </CLASSES>
     <JAVADOC />
     <SOURCES />

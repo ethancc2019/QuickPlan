@@ -2,12 +2,17 @@
   <library name="Gradle: com.android.support.test:monitor:1.0.2@aar">
     <CLASSES>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/ae5c12257586f1c070590d2d832e22b2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/ae5c12257586f1c070590d2d832e22b2/res" />
 =======
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/27b3558dbb59375c171d1ec97ee97db2/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/27b3558dbb59375c171d1ec97ee97db2/jars/classes.jar!/" />
 >>>>>>> 7e840331fc2f18103ce5f8214392cb76b9afb1ee
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/9aa971170907b39eb2682fdaade7f1d4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/9aa971170907b39eb2682fdaade7f1d4/res" />
+>>>>>>> DevJ
     </CLASSES>
     <JAVADOC />
     <SOURCES>
