@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         createTaskButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openCreateTaskActivity();
+                openCalendarViewActivity();
             }
         });
 
@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void openCreateTaskActivity(){
         startActivity(new Intent(MainActivity.this, CreateTask.class));
+    }
+
+    public void openCalendarViewActivity(){
+        startActivity(new Intent(MainActivity.this, CalendarView.class));
     }
 
     @Override

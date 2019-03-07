@@ -66,8 +66,3 @@ public class CreateTask extends AppCompatActivity {
         //new method
     }
 }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> DevJ

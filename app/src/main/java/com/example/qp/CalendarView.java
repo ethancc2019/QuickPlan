@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.support.annotation.NonNull;
 
 public class CalendarView extends AppCompatActivity {
 
@@ -16,14 +17,14 @@ public class CalendarView extends AppCompatActivity {
         setContentView(R.layout.activity_calendar_view);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        android.widget.CalendarView calendar = new android.widget.CalendarView(CalendarView.this);
+        android.widget.CalendarView calendar = (android.widget.CalendarView) findViewById(R.id.calendarView);
         calendar.setOnDateChangeListener(new android.widget.CalendarView.OnDateChangeListener() {
-                                             @Override
-                                             public void onSelectedDayChange(@androidx.annotation.NonNull android.widget.CalendarView view, int year, int month, int dayOfMonth) {
+            @Override
+            public void onSelectedDayChange(@NonNull android.widget.CalendarView view, int year, int month, int dayOfMonth) {
 
-                                             }
-                                         }
-        );
+            }
+        });
+
 //        FloatingActionButton fab = findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
