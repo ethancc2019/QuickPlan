@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
 <<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1337" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+=======
   <component name="ChangeListManager">
     <list default="true" id="431b0c72-6c4f-46f7-8961-368aeb6fc10c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qp/CreateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qp/CreateTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qp/MainActivity.java" afterDir="false" />
     </list>
+>>>>>>> 0bb144bbe7086916ee6c1e8d58c8b1942377b8f7
 =======
   <component name="AndroidLayouts">
     <shared>
@@ -665,6 +675,7 @@
         </RuleState>
       </list>
     </option>
+>>>>>>> Deva
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -677,6 +688,7 @@
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
 =======
     <configuration name="QP" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+>>>>>>> Deva
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -729,6 +741,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
 >>>>>>> eca593115dac218d585842ce4188fc5c9dbbb9ab
       <module name="app" />
@@ -1050,5 +1064,6 @@
         </state>
       </provider>
     </entry>
+>>>>>>> Deva
   </component>
 </project>

@@ -62,5 +62,16 @@ public class CreateTask extends AppCompatActivity {
         System.out.println("Hello");
     }
 
+<<<<<<< HEAD
 
 }
+=======
+<<<<<<< HEAD
+    public void newAnthonyMethod(){
+        //new method
+    }
+}
+=======
+}
+>>>>>>> 0bb144bbe7086916ee6c1e8d58c8b1942377b8f7
+>>>>>>> a24df1655f395e4017f74be04b2387e0e5b5fc5e
