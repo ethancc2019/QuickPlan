@@ -2,12 +2,17 @@
   <library name="Gradle: com.android.support:support-core-utils:28.0.0@aar">
     <CLASSES>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bdefd852d55d83943148e71c3be6ae7d/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bdefd852d55d83943148e71c3be6ae7d/jars/classes.jar!/" />
 =======
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0d9297d656ebd12f6aa980b182981e31/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0d9297d656ebd12f6aa980b182981e31/jars/classes.jar!/" />
 >>>>>>> 7e840331fc2f18103ce5f8214392cb76b9afb1ee
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bdefd852d55d83943148e71c3be6ae7d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bdefd852d55d83943148e71c3be6ae7d/jars/classes.jar!/" />
+>>>>>>> b233903055cdfd48b5abe2f69d5fdefaebd8261e
     </CLASSES>
     <JAVADOC />
     <SOURCES />

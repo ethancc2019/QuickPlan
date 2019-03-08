@@ -2,12 +2,17 @@
   <library name="Gradle: com.android.support:customview:28.0.0@aar">
     <CLASSES>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ecd21ed63c3ff8ed187b1654eb863ced/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ecd21ed63c3ff8ed187b1654eb863ced/jars/classes.jar!/" />
 =======
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/000b44d7aa57c682af4ecef80e8d3990/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/000b44d7aa57c682af4ecef80e8d3990/res" />
 >>>>>>> 7e840331fc2f18103ce5f8214392cb76b9afb1ee
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ecd21ed63c3ff8ed187b1654eb863ced/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ecd21ed63c3ff8ed187b1654eb863ced/jars/classes.jar!/" />
+>>>>>>> b233903055cdfd48b5abe2f69d5fdefaebd8261e
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -9,7 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.TextView;
 
+import java.sql.Time;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 //                        .setAction("Action", null).show();
 //            }
 //        });
-
+        displayTaskToCard();
         Button createTaskButton = findViewById(R.id.createTaskBtn);
         createTaskButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,14 +42,44 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
     CheckBox completeCheckBox = findViewById(R.id.checkBox);
 
 
+
     public void openCreateTaskActivity(){
         startActivity(new Intent(MainActivity.this, CreateTask.class));
+    }
+
+    public void displayTaskToCard()
+    {
+        //Dummy task fields
+        Time testTime = new Time(13,44,3);
+        Task testTask = new Task("Task1","03/14/19", testTime, 5, "I need to finish this task.");
+        globalTaskList.add(testTask);
+        if(!globalTaskList.isEmpty())
+        {
+            if(globalTaskList.get(0) != null)
+            {
+                TextView taskName = findViewById(R.id.textView2);
+                taskName.setText(globalTaskList.get(0).getTaskName());
+
+                TextView dueDate = findViewById(R.id.dueDateDesc02);
+                dueDate.setText(globalTaskList.get(0).getDueDate());
+
+                TextView description = findViewById(R.id.descriptionText02);
+                description.setText(globalTaskList.get(0).getDescription());
+
+                CheckBox completed = findViewById(R.id.checkBox6);
+                if(globalTaskList.get(0).isCompleted())
+                {
+                    completed.setChecked(true);
+                }
+                else
+                    completed.setChecked(false);
+            }
+
+        }
     }
 
     @Override
