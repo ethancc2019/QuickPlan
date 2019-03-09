@@ -68,8 +68,3 @@ public class CreateTask extends AppCompatActivity {
         System.out.println("Hello");
     }
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> b233903055cdfd48b5abe2f69d5fdefaebd8261e

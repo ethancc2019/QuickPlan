@@ -1,25 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:coordinatorlayout:28.0.0@aar">
     <ANNOTATIONS>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b233903055cdfd48b5abe2f69d5fdefaebd8261e
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/994166b261615f83a352591efc97cd11/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2c26da1f646e9d9e7246d364803f106f/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/994166b261615f83a352591efc97cd11/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/994166b261615f83a352591efc97cd11/jars/classes.jar!/" />
-<<<<<<< HEAD
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/1f95be4790ee10d40deea05f191daaec/annotations.zip!/" />
-    </ANNOTATIONS>
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/1f95be4790ee10d40deea05f191daaec/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/1f95be4790ee10d40deea05f191daaec/res" />
->>>>>>> 7e840331fc2f18103ce5f8214392cb76b9afb1ee
-=======
->>>>>>> b233903055cdfd48b5abe2f69d5fdefaebd8261e
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2c26da1f646e9d9e7246d364803f106f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2c26da1f646e9d9e7246d364803f106f/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
