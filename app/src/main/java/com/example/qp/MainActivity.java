@@ -9,13 +9,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import java.sql.Time;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    public ArrayList<Task> globalTaskList;
+    public ArrayList<Task> globalTaskList = new ArrayList<>();
     public ArrayList<Task> globalCompletedTaskList;
 
     @Override
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 //                        .setAction("Action", null).show();
 //            }
 //        });
-        //displayTaskToCard();
+        displayTaskToCard();
         Button createTaskButton = findViewById(R.id.createTaskBtn);
         createTaskButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    CheckBox completeCheckBox = findViewById(R.id.checkBox);
 
 
 
@@ -55,13 +55,13 @@ public class MainActivity extends AppCompatActivity {
     {
         //Dummy task fields
         Time testTime = new Time(13,44,3);
-        Task testTask = new Task("Task1","03/14/19", testTime, 5, "I need to finish this task.");
+        Task testTask = new Task("Task1","03/14/19", testTime, "5", "I need to finish this task.");
         globalTaskList.add(testTask);
         if(!globalTaskList.isEmpty())
         {
             if(globalTaskList.get(0) != null)
             {
-                TextView taskName = findViewById(R.id.textView2);
+                EditText taskName =  findViewById(R.id.taskName02);
                 taskName.setText(globalTaskList.get(0).getTaskName());
 
                 TextView dueDate = findViewById(R.id.dueDateDesc02);
@@ -70,13 +70,15 @@ public class MainActivity extends AppCompatActivity {
                 TextView description = findViewById(R.id.descriptionText02);
                 description.setText(globalTaskList.get(0).getDescription());
 
-                CheckBox completed = findViewById(R.id.checkBox6);
-                if(globalTaskList.get(0).isCompleted())
-                {
-                    completed.setChecked(true);
-                }
-                else
-                    completed.setChecked(false);
+                EditText priority = findViewById(R.id.numPriority02);
+                priority.setText(globalTaskList.get(0).getPriority());
+
+                //CheckBox completed = findViewById(R.id.checkBox6);
+                //completed.setChecked(false);
+                //if(completed.isChecked())
+                //{
+                    //move to completed tasks
+                //}
             }
 
         }

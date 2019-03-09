@@ -8,7 +8,8 @@ public class Task {
     //private Date dueDate;
     private String dueDate;
     private Time timeDueDate;
-    private int priority;
+    //private int priority;
+    private String priority;
     private String description;
     private boolean completed;
 
@@ -30,7 +31,7 @@ public class Task {
         this.taskName = "";
         this.dueDate = "";
         this.timeDueDate = null;
-        this.priority = 0;
+        this.priority = "0";
         this.description = "";
         this.completed = false;
     }
@@ -46,7 +47,7 @@ public class Task {
     }
     */
     //For prototype overloaded constructor
-    public Task(String taskName, String dueDate, Time timeDueDate, int priority, String description) {
+    public Task(String taskName, String dueDate, Time timeDueDate, String priority, String description) {
         this.taskName = taskName;
         this.dueDate = dueDate;
         this.timeDueDate = timeDueDate;
@@ -78,13 +79,11 @@ public class Task {
         this.timeDueDate = timeDueDate;
     }
 
-    public int getPriority() {
+    public String getPriority() {
         return priority;
     }
 
-    public void setPriority(int priority) {
-        this.priority = priority;
-    }
+    public void setPriority(String priority) { this.priority = priority; }
 
     public String getDescription() {
         return description;
