@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     {
         //Dummy task fields
         Time testTime = new Time(13,44,3);
-        Task testTask = new Task("Task1","03/14/19", testTime, "5", "I need to finish this task.");
+        Task testTask = new Task("Task1", "03/14/19", testTime, 4, "I need to finish this task.", false);
         globalTaskList.add(testTask);
         if(!globalTaskList.isEmpty())
         {
@@ -64,14 +64,14 @@ public class MainActivity extends AppCompatActivity {
                 EditText taskName =  findViewById(R.id.taskName02);
                 taskName.setText(globalTaskList.get(0).getTaskName());
 
-                TextView dueDate = findViewById(R.id.dueDateDesc02);
+                EditText dueDate = findViewById(R.id.dueDateDesc02);
                 dueDate.setText(globalTaskList.get(0).getDueDate());
 
-                TextView description = findViewById(R.id.descriptionText02);
+                EditText description = findViewById(R.id.descriptionText02);
                 description.setText(globalTaskList.get(0).getDescription());
 
                 EditText priority = findViewById(R.id.numPriority02);
-                priority.setText(globalTaskList.get(0).getPriority());
+                priority.setText(String.format("%d", globalTaskList.get(0).getPriority()));
 
                 //CheckBox completed = findViewById(R.id.checkBox6);
                 //completed.setChecked(false);

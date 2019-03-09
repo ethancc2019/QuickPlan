@@ -6,7 +6,7 @@
     density="560dpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1552106840512"
+    timestamp="1552108404393"
     token="-685949166851809553"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -23,9 +23,6 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-        type="SPLIT" />
     <artifact
         location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
@@ -45,16 +42,19 @@
         location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
         location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
         location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
     <artifact
         location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -65,11 +65,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1552106840512"
+        timestamp="1552108404393"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
         <artifact
             location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
@@ -89,16 +86,19 @@
             location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="/home/tony/StudioProjects/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_3.apk"

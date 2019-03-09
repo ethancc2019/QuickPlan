@@ -54,10 +54,9 @@
         <EditText
             android:id="@+id/taskName02"
             android:layout_width="84dp"
-            android:layout_height="36dp"
+            android:layout_height="48dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginBottom="8dp"
             android:editable="true"
             android:enabled="true"
             android:inputType="text"
@@ -112,18 +111,14 @@
         <EditText
             android:id="@+id/numPriority02"
             android:layout_width="44dp"
-            android:layout_height="18dp"
-            android:layout_marginTop="24dp"
+            android:layout_height="39dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
             android:editable="true"
-            android:enabled="true"
             android:inputType="number"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/textView3"
-            app:layout_constraintTop_toTopOf="@+id/textView3"
-            app:layout_constraintVertical_bias="0.095" />
+            android:singleLine="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <TextView
             android:id="@+id/description02"

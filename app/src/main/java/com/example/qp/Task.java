@@ -8,13 +8,21 @@ public class Task {
     //private Date dueDate;
     private String dueDate;
     private Time timeDueDate;
-    //private int priority;
-    private String priority;
+    private int priority;
+    //private String priority;
     private String description;
     private boolean completed;
 
 
-
+    //Default constuctor
+    public Task(String taskName, String dueDate, Time timeDueDate, int priority, String description, boolean completed) {
+        this.taskName = taskName;
+        this.dueDate = dueDate;
+        this.timeDueDate = timeDueDate;
+        this.priority = priority;
+        this.description = description;
+        this.completed = completed;
+    }
     /*
     // Default
     public Task() {
@@ -31,7 +39,7 @@ public class Task {
         this.taskName = "";
         this.dueDate = "";
         this.timeDueDate = null;
-        this.priority = "0";
+        this.priority = 0;
         this.description = "";
         this.completed = false;
     }
@@ -46,15 +54,6 @@ public class Task {
         this.completed = false;
     }
     */
-    //For prototype overloaded constructor
-    public Task(String taskName, String dueDate, Time timeDueDate, String priority, String description) {
-        this.taskName = taskName;
-        this.dueDate = dueDate;
-        this.timeDueDate = timeDueDate;
-        this.priority = priority;
-        this.description = description;
-        this.completed = false;
-    }
     public String getTaskName() {
         return taskName;
     }
@@ -79,11 +78,11 @@ public class Task {
         this.timeDueDate = timeDueDate;
     }
 
-    public String getPriority() {
+    public int getPriority() {
         return priority;
     }
 
-    public void setPriority(String priority) { this.priority = priority; }
+    public void setPriority(int priority) { this.priority = priority; }
 
     public String getDescription() {
         return description;
@@ -105,6 +104,7 @@ public class Task {
                 ", timeDueDate=" + timeDueDate +
                 ", priority=" + priority +
                 ", description='" + description + '\'' +
+                ", completed='" + completed + '\'' +
                 '}';
     }
 }
