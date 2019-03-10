@@ -17,7 +17,8 @@ import java.util.ArrayList;
 public class CalendarView extends AppCompatActivity {
 
     ArrayList<String>taskNames = new ArrayList<>();
-
+    ArrayList<Task>globalTaskList = new ArrayList<>();
+    RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, taskNames);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,12 +26,16 @@ public class CalendarView extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         android.widget.CalendarView calendar = findViewById(R.id.calendarView);
-        nameTester();
+        populate();
+        RecyclerView recyclerView = findViewById(R.id.task_recycler);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         calendar.setOnDateChangeListener(new android.widget.CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull android.widget.CalendarView view, int year, int month, int dayOfMonth) {
-
+                String date = month + "/" + dayOfMonth + "/" + year;
+                updateRecyclerView(date);
             }
         });
 
@@ -45,22 +50,26 @@ public class CalendarView extends AppCompatActivity {
 //        });
     }
 
-    private void nameTester(){
-        taskNames.add("Task 1");
-        taskNames.add("Task 2");
-        taskNames.add("Task 3");
-        taskNames.add("Task 4");
-        taskNames.add("Task 5");
-        taskNames.add("Task 6");
-        taskNames.add("Task 7");
-        initRecyclerView();
+    private void populate(){
+        globalTaskList.add(new Task("Task 1", "2/9/2019", null, 1, "nothing"));
+        globalTaskList.add(new Task("Task 2", "2/9/2019", null, 1, "nothing"));
+        globalTaskList.add(new Task("Task 3", "2/9/2019", null, 1, "nothing"));
+        globalTaskList.add(new Task("Task 4", "2/9/2019", null, 1, "nothing"));
+        globalTaskList.add(new Task("Task 5", "2/9/2019", null, 1, "nothing"));
+        globalTaskList.add(new Task("Task 6", "2/10/2019", null, 1, "nothing"));
+        globalTaskList.add(new Task("Task 7", "2/10/2019", null, 1, "nothing"));
+        globalTaskList.add(new Task("Task 8", "2/10/2019", null, 1, "nothing"));
+        globalTaskList.add(new Task("Task 9", "2/10/2019", null, 1, "nothing"));
     }
 
-    private void initRecyclerView(){
-        RecyclerView recyclerView = findViewById(R.id.task_recycler);
-        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, taskNames);
-        recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+    private void updateRecyclerView(String date){
+        taskNames = new ArrayList<>();
+        for(int i=0; i < globalTaskList.size(); i++)
+        {
+            if(date.equals(globalTaskList.get(i).getDueDate()))
+                taskNames.add(globalTaskList.get(i).taskName);
+        }
+        adapter.updateData(taskNames);
     }
 
 }

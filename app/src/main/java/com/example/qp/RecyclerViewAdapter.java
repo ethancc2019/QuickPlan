@@ -17,8 +17,10 @@ import java.util.ArrayList;
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
     private static final String TAG = "RecyclerViewAdapter";
 
+
     private ArrayList<String> mTaskNames = new ArrayList<>();
     private Context mContext;
+
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView text;
@@ -54,7 +56,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "Clicked on task");
-
                 mContext.startActivity(new Intent(mContext, ViewTask.class));
             }
         });
@@ -65,5 +66,11 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         return mTaskNames.size();
     }
 
+    public void updateData(ArrayList<String> taskNames)
+    {
+        mTaskNames.clear();
+        mTaskNames.addAll(taskNames);
+        notifyDataSetChanged();
+    }
 
 }
