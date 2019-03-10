@@ -22,4 +22,6 @@
 
     <include layout="@layout/content_calendar_view" />
 
+    <include layout="@layout/layout_listitem" />
+
 </android.support.design.widget.CoordinatorLayout>
