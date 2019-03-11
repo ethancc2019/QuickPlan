@@ -51,15 +51,17 @@ public class CalendarView extends AppCompatActivity {
     }
 
     private void populate(){
-        globalTaskList.add(new Task("Task 1", "2/9/2019", null, 1, "nothing"));
-        globalTaskList.add(new Task("Task 2", "2/9/2019", null, 1, "nothing"));
-        globalTaskList.add(new Task("Task 3", "2/9/2019", null, 1, "nothing"));
-        globalTaskList.add(new Task("Task 4", "2/9/2019", null, 1, "nothing"));
-        globalTaskList.add(new Task("Task 5", "2/9/2019", null, 1, "nothing"));
-        globalTaskList.add(new Task("Task 6", "2/10/2019", null, 1, "nothing"));
-        globalTaskList.add(new Task("Task 7", "2/10/2019", null, 1, "nothing"));
-        globalTaskList.add(new Task("Task 8", "2/10/2019", null, 1, "nothing"));
-        globalTaskList.add(new Task("Task 9", "2/10/2019", null, 1, "nothing"));
+
+        //Using fall back constructor for fake data/testing
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
     }
 
     private void updateRecyclerView(String date){

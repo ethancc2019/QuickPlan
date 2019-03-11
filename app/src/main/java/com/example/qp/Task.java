@@ -21,12 +21,15 @@ public class Task {
     }
 
     // Fall back Constructor
+    //Constructor for testing and getting fake data
     public Task() {
-        this.taskName = "";
+        this.taskName = "Test";
         this.dueDate = new Date();
-        this.timeDueDate = null;
+        this.timeDueDate = new Time(12, 0,0);
         this.priority = 0;
-        this.description = "";
+        this.description = "Test Description";
+
+
     }
 
     public String getTaskName() {
