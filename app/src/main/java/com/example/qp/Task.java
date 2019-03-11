@@ -22,11 +22,11 @@ public class Task {
 
     // Fall back Constructor
     public Task() {
-        this.taskName = "";
-        this.dueDate = new Date();
-        this.timeDueDate = null;
+        this.taskName = "Task Name";
+        this.dueDate = new Date(2019,01,01);
+        this.timeDueDate = new Time(12,0,0);
         this.priority = 0;
-        this.description = "";
+        this.description = "Test description";
     }
 
     public String getTaskName() {
