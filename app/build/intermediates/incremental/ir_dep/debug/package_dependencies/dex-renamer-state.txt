@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-#Mon Mar 11 12:42:27 PDT 2019
-base.0=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/10
-=======
-#Mon Mar 11 15:38:21 PDT 2019
-base.0=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/10
->>>>>>> EB
+#Mon Mar 11 16:01:58 PDT 2019
+base.0=/Users/anthony.volkov384/AndroidStudioProjects/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex

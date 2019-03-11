@@ -69,13 +69,13 @@ public class MainActivity extends AppCompatActivity {
         globalTaskList.add(testTask);
         if (!globalTaskList.isEmpty()) {
             if (globalTaskList.get(0) != null) {
-                EditText taskName = findViewById(R.id.taskName02);
+                TextView taskName = findViewById(R.id.taskName02);
                 taskName.setText(globalTaskList.get(0).getTaskName());
 
-                EditText dueDate = findViewById(R.id.dueDateDesc02);
+                TextView dueDate = findViewById(R.id.dueDateDesc02);
                 dueDate.setText(globalTaskList.get(0).getDueDate());
 
-                EditText description = findViewById(R.id.descriptionText02);
+                TextView description = findViewById(R.id.descriptionText02);
                 description.setText(globalTaskList.get(0).getDescription());
 
                 EditText priority = findViewById(R.id.numPriority02);
