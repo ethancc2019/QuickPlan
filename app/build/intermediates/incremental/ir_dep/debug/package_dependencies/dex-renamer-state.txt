@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Mon Mar 11 15:01:39 PDT 2019
 base.0=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/10
+=======
+#Mon Mar 11 12:42:27 PDT 2019
+base.0=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/10
+>>>>>>> b024ba1291e462eaf54102f394d13b015d544ca6
 path.0=classes.dex
 renamed.0=classes.dex

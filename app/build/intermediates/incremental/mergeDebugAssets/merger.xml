@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ethan.collins335/Desktop/QuickPlan/app/src/main/assets"/><source path="/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/shader_assets/debug/compileDebugShaders/out"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ethan.collins335/Desktop/QuickPlan/app/src/debug/assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/main/assets"/><source path="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/shader_assets/debug/compileDebugShaders/out"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/debug/assets"/></dataSet></merger>
+>>>>>>> b024ba1291e462eaf54102f394d13b015d544ca6

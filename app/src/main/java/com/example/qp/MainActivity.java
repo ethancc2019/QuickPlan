@@ -13,10 +13,15 @@ import android.widget.CheckBox;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+<<<<<<< HEAD
 
 
     public static ArrayList<Task> globalTaskList = new ArrayList<>();
     public static ArrayList<Task> globalCompletedTaskList = new ArrayList<>();
+=======
+    public static ArrayList<Task> globalTaskList = new ArrayList<Task>();
+    public static ArrayList<Task> globalCompletedTaskList = new ArrayList<Task>();
+>>>>>>> b024ba1291e462eaf54102f394d13b015d544ca6
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
