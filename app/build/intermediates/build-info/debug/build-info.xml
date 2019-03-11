@@ -3,12 +3,16 @@
     abi="x86"
     api-level="28"
     build-mode="FULL"
+<<<<<<< Prototype
 <<<<<<< HEAD
+=======
+>>>>>>> 
     density="420dpi"
     format="10"
     plugin-version="3.3.1"
     timestamp="1552336079366"
     token="7070180004736191423"
+<<<<<<< Prototype
 =======
     density="560dpi"
     format="10"
@@ -16,21 +20,30 @@
     timestamp="1552343897204"
     token="7909653054173851994"
 >>>>>>> EB
+=======
+>>>>>>> 
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
+<<<<<<< Prototype
 <<<<<<< HEAD
         duration="573" />
 =======
         duration="390" />
 >>>>>>> EB
+=======
+        duration="573" />
+>>>>>>> 
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< Prototype
 <<<<<<< HEAD
+=======
+>>>>>>> 
         duration="10" />
     <task
         name="verifier"
@@ -74,6 +87,7 @@
         type="SPLIT" />
     <artifact
         location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+<<<<<<< Prototype
 =======
         duration="95" />
     <task
@@ -119,11 +133,16 @@
     <artifact
         location="/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
 >>>>>>> EB
+=======
+>>>>>>> 
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
+<<<<<<< Prototype
 <<<<<<< HEAD
+=======
+>>>>>>> 
         timestamp="1552336079366"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
@@ -164,6 +183,7 @@
             type="SPLIT" />
         <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+<<<<<<< Prototype
 =======
         timestamp="1552343897204"
         verifier="FULL_BUILD_REQUESTED" >
@@ -206,6 +226,8 @@
         <artifact
             location="/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
 >>>>>>> EB
+=======
+>>>>>>> 
             type="SPLIT_MAIN" />
     </build>
 

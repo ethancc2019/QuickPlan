@@ -52,6 +52,7 @@ public class CreateTask extends AppCompatActivity {
         //Saves task in array list
         mainActivity.globalTaskList.add(newTask);
         //mainActivity.globalTaskList.sort();
+
     }
 
     public void goBackToHomepage(){
