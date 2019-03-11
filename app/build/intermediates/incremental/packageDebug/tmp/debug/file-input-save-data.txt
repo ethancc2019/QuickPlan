@@ -1,16 +1,11 @@
 #Internal package file, do not edit.
-<<<<<<< HEAD
-#Mon Mar 11 15:01:40 PDT 2019
-=======
-#Mon Mar 11 12:42:31 PDT 2019
->>>>>>> b024ba1291e462eaf54102f394d13b015d544ca6
+#Mon Mar 11 15:38:21 PDT 2019
 4.path=classes.dex
 8.set=DEX
 6.path=classes.dex
 0.baseType=DIRECTORY
 10.path=classes.dex
 5.baseType=DIRECTORY
-<<<<<<< HEAD
 1.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/11
 8.path=classes.dex
 3.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/14
@@ -18,15 +13,6 @@
 5.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/12
 7.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/19
 9.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/15
-=======
-1.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/18
-8.path=classes.dex
-3.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/19
-4.set=DEX
-5.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/20
-7.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/16
-9.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/14
->>>>>>> b024ba1291e462eaf54102f394d13b015d544ca6
 1.baseType=DIRECTORY
 0.set=DEX
 6.baseType=DIRECTORY
@@ -39,7 +25,6 @@
 3.path=classes.dex
 10.set=DEX
 5.path=classes.dex
-<<<<<<< HEAD
 0.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/13
 7.path=classes.dex
 9.path=classes.dex
@@ -50,18 +35,6 @@
 6.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/20
 10.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/17
 8.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/18
-=======
-0.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/17
-7.path=classes.dex
-9.path=classes.dex
-6.set=DEX
-2.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/15
-4.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/12
-3.baseType=DIRECTORY
-6.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/21
-10.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/11
-8.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/13
->>>>>>> b024ba1291e462eaf54102f394d13b015d544ca6
 2.set=DEX
 8.baseType=DIRECTORY
 9.set=DEX

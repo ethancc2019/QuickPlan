@@ -1073,7 +1073,6 @@ id beginning
 id blocking
 id bottom
 id button
-id button4
 id button6
 id button7
 id buttonPanel
@@ -1281,7 +1280,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id viewTask
 id view_offset_helper
 id visible
 id withText
