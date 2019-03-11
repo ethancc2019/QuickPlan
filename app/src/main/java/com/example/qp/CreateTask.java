@@ -25,19 +25,20 @@ public class CreateTask extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Task newTask = new Task();
-                goBackToHomepage();
+                //goBackToHomepage();
 
                 EditText taskName = (EditText) findViewById(R.id.taskName);
-                EditText priority = (EditText) findViewById(R.id.priorityNum);
+                //EditText priority = (EditText) findViewById(R.id.priorityNum);
                 EditText taskNotes = (EditText) findViewById(R.id.taskNotes);
                 EditText dueDate = (EditText) findViewById(R.id.taskDueDate);
 
-                newTask.setTaskName(taskName.getText().toString());
-//              newTask.setPriority(Integer.parseInt(priority.toString())); // the problem
                 newTask.setDescription(taskNotes.getText().toString());
-                //Need to be able to save the date object. Will keep as string for now
-                //newTask.setDueDate();
+                newTask.setTaskName(taskName.getText().toString());
+                newTask.setPriority(2);
+                newTask.setDueDate(dueDate.getText().toString());
+
                 saveTask(newTask);
+                goBackToHomepage();
 
             }
 
@@ -67,4 +68,5 @@ public class CreateTask extends AppCompatActivity {
     public void printNow(){
         System.out.println("Hello");
     }
+
 }

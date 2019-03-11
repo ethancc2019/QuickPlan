@@ -16,8 +16,11 @@ import java.sql.Time;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    public ArrayList<Task> globalTaskList = new ArrayList<>();
-    public ArrayList<Task> globalCompletedTaskList;
+
+
+    public static ArrayList<Task> globalTaskList = new ArrayList<>();
+    public static ArrayList<Task> globalCompletedTaskList = new ArrayList<>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         //FloatingActionButton fab = findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
@@ -35,10 +39,13 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
         displayTaskToCard();
+
+
         Button createTaskButton = findViewById(R.id.createTaskBtn);
         createTaskButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //openCalendarViewActivity();
                 openCreateTaskActivity();
             }
         });
@@ -47,21 +54,22 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+
     public void openCreateTaskActivity(){
         startActivity(new Intent(MainActivity.this, CreateTask.class));
     }
 
-    public void displayTaskToCard()
-    {
+
+    public void displayTaskToCard() {
         //Dummy task fields
-        Time testTime = new Time(13,44,3);
+        Time testTime = new Time(13, 44, 3);
         Task testTask = new Task("Task1", "03/14/19", testTime, 4, "I need to finish this task.", false);
         globalTaskList.add(testTask);
-        if(!globalTaskList.isEmpty())
-        {
-            if(globalTaskList.get(0) != null)
-            {
-                EditText taskName =  findViewById(R.id.taskName02);
+        if (!globalTaskList.isEmpty()) {
+            if (globalTaskList.get(0) != null) {
+                EditText taskName = findViewById(R.id.taskName02);
                 taskName.setText(globalTaskList.get(0).getTaskName());
 
                 EditText dueDate = findViewById(R.id.dueDateDesc02);
@@ -77,11 +85,20 @@ public class MainActivity extends AppCompatActivity {
                 //completed.setChecked(false);
                 //if(completed.isChecked())
                 //{
-                    //move to completed tasks
+                //move to completed tasks
                 //}
             }
 
         }
+    }
+
+    public void openViewTask(){
+        startActivity(new Intent(this, ViewTask.class));
+    }
+
+    public void openCalendarViewActivity(){
+        startActivity(new Intent(MainActivity.this, CalendarView.class));
+
     }
 
     @Override

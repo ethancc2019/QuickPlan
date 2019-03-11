@@ -10,6 +10,8 @@ import android.widget.CheckBox;
 
 public class AllTasks extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

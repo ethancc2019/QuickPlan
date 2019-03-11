@@ -4,6 +4,7 @@ import java.sql.Time;
 import java.util.Date;
 
 public class Task {
+
     private String taskName;
     //private Date dueDate;
     private String dueDate;
@@ -13,9 +14,8 @@ public class Task {
     private String description;
     private boolean completed;
 
-
     //Default constuctor
-    public Task(String taskName, String dueDate, Time timeDueDate, int priority, String description, boolean completed) {
+    public Task(String taskName, String  dueDate, Time timeDueDate, int priority, String description, boolean completed) {
         this.taskName = taskName;
         this.dueDate = dueDate;
         this.timeDueDate = timeDueDate;
@@ -23,17 +23,7 @@ public class Task {
         this.description = description;
         this.completed = completed;
     }
-    /*
-    // Default
-    public Task() {
-        this.taskName = "";
-        this.dueDate = new Date();
-        this.timeDueDate = null;
-        this.priority = 0;
-        this.description = "";
-        this.completed = false;
-    }
-    */
+
     //For prototype
     public Task() {
         this.taskName = "";
@@ -65,7 +55,7 @@ public class Task {
     //temporary: public Date getDueDate() {
     public String getDueDate() { return dueDate; }
 
-    //temporary: public void setDueDate(Date dueDate) {this.dueDate = dueDate; }
+
     public void setDueDate(String dueDate) {
         this.dueDate = dueDate;
     }
