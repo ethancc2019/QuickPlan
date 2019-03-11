@@ -1073,7 +1073,6 @@ id beginning
 id blocking
 id bottom
 id button
-id button4
 id button6
 id button7
 id buttonPanel
@@ -1103,6 +1102,7 @@ id decor_content_parent
 id default_activity_button
 id description02
 id descriptionText02
+id descriptionText04
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub

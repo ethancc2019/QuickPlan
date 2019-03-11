@@ -13,8 +13,14 @@ import android.widget.CheckBox;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+<<<<<<< HEAD
     public static ArrayList<Task> globalTaskList = new ArrayList<Task>();
     public static ArrayList<Task> globalCompletedTaskList = new ArrayList<Task>();
+=======
+
+    public static ArrayList<Task> globalTaskList = new ArrayList<>();
+    public static ArrayList<Task> globalCompletedTaskList = new ArrayList<>();
+>>>>>>> EB
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,11 +42,16 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     }
 
 
     public void openCreateTaskActivity(){
         startActivity(new Intent(MainActivity.this, CreateTask.class));
+    }
+
+    public void openViewTask(){
+        startActivity(new Intent(this, ViewTask.class));
     }
 
     public void openCalendarViewActivity(){

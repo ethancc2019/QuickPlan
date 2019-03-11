@@ -9,20 +9,14 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/Base.Theme.MaterialComponents.Dialog.Alert">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="108dp"
-            android:layout_height="wrap_content"
-            android:text="..." />
 
     </android.support.design.widget.AppBarLayout>
 
