@@ -9,6 +9,7 @@ public class Task {
     public Time timeDueDate;
     public int priority;
     public String description;
+    public boolean completed;
 
     //Default constuctor
     public Task(String taskName, Date dueDate, Time timeDueDate, int priority, String description) {
