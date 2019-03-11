@@ -51,15 +51,24 @@ public class CalendarView extends AppCompatActivity {
     }
 
     private void populate(){
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
+<<<<<<< HEAD
+=======
 
+        //Using fall back constructor for fake data/testing
+        globalTaskList.add(new Task());
+>>>>>>> 3bbb39b02d721bfd96fcee439cfe50010a1e7ba3
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+        globalTaskList.add(new Task());
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3bbb39b02d721bfd96fcee439cfe50010a1e7ba3
     }
 
     private void updateRecyclerView(String date){
