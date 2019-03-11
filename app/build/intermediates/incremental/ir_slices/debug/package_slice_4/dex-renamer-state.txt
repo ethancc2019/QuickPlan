@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Mon Mar 04 15:25:07 PST 2019
-=======
-#Mon Mar 04 15:28:13 PST 2019
->>>>>>> 21cc257bc76ed7e1734ea792606fbd05e845a371
-base.0=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/4
+#Sun Mar 10 20:57:01 PDT 2019
+base.0=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
 path.0=classes.dex
 renamed.0=classes.dex
