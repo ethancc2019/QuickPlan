@@ -13,8 +13,8 @@ import android.widget.CheckBox;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    public static ArrayList<Task> globalTaskList;
-    public static ArrayList<Task> globalCompletedTaskList;
+    public static ArrayList<Task> globalTaskList = new ArrayList<Task>();
+    public static ArrayList<Task> globalCompletedTaskList = new ArrayList<Task>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,27 +23,20 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        //FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
+
 
         Button createTaskButton = findViewById(R.id.createTaskBtn);
         createTaskButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openCalendarViewActivity();
+                //openCalendarViewActivity();
+                openCreateTaskActivity();
             }
         });
 
 
 
     }
-    CheckBox completeCheckBox = findViewById(R.id.checkBox);
 
 
     public void openCreateTaskActivity(){
