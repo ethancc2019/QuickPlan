@@ -5,14 +5,14 @@ import java.util.Date;
 
 public class Task {
     public String taskName;
-    public Date dueDate;
+    public String dueDate;
     public Time timeDueDate;
     public int priority;
     public String description;
     public boolean completed;
 
     //Default constuctor
-    public Task(String taskName, Date dueDate, Time timeDueDate, int priority, String description) {
+    public Task(String taskName, String  dueDate, Time timeDueDate, int priority, String description) {
         this.taskName = taskName;
         this.dueDate = dueDate;
         this.timeDueDate = timeDueDate;
@@ -24,7 +24,7 @@ public class Task {
     //Constructor for testing and getting fake data
     public Task() {
         this.taskName = "Test";
-        this.dueDate = new Date();
+        this.dueDate = "01/01/2019";
         this.timeDueDate = new Time(12, 0,0);
         this.priority = 0;
         this.description = "Test Description";
@@ -40,11 +40,11 @@ public class Task {
         this.taskName = taskName;
     }
 
-    public Date getDueDate() {
+    public String getDueDate() {
         return dueDate;
     }
 
-    public void setDueDate(Date dueDate) {
+    public void setDueDate(String dueDate) {
         this.dueDate = dueDate;
     }
 
