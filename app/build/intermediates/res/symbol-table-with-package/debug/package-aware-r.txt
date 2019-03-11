@@ -1248,7 +1248,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
-id textView10
 id textView15
 id textView16
 id textView17

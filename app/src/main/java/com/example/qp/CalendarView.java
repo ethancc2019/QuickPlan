@@ -12,6 +12,7 @@ import android.view.View;
 import android.support.annotation.NonNull;
 import android.widget.LinearLayout;
 
+import java.sql.Time;
 import java.util.ArrayList;
 
 public class CalendarView extends AppCompatActivity {
@@ -65,10 +66,7 @@ public class CalendarView extends AppCompatActivity {
         globalTaskList.add(new Task());
         globalTaskList.add(new Task());
         globalTaskList.add(new Task());
-<<<<<<< HEAD
 
-=======
->>>>>>> 3bbb39b02d721bfd96fcee439cfe50010a1e7ba3
     }
 
     private void updateRecyclerView(String date){
