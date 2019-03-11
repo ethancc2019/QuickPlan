@@ -1,8 +1,18 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-vector-drawable:28.0.0@aar">
     <CLASSES>
+<<<<<<< Prototype
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0a2b81f13605bbcbcf1089487eeb2723/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0a2b81f13605bbcbcf1089487eeb2723/res" />
+=======
+<<<<<<< EB
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a008154f75f78c79929c3a35d629f189/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a008154f75f78c79929c3a35d629f189/jars/classes.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4c774a3f6c987c3e84e787c3d97896b5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4c774a3f6c987c3e84e787c3d97896b5/res" />
+>>>>>>> Added toolbar functionality
+>>>>>>> Added toolbar functionality
     </CLASSES>
     <JAVADOC />
     <SOURCES />

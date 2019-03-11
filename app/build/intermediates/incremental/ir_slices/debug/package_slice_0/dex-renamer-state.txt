@@ -1,5 +1,9 @@
 <<<<<<< Prototype
+<<<<<<< Prototype
 <<<<<<< HEAD
+=======
+<<<<<<< EB
+>>>>>>> Added toolbar functionality
 #Mon Mar 11 13:13:41 PDT 2019
 base.0=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/0
 =======
@@ -12,3 +16,6 @@ base.0=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transfor
 >>>>>>> 
 path.0=classes.dex
 renamed.0=classes.dex
+=======
+#Sun Mar 10 20:57:01 PDT 2019
+>>>>>>> Added toolbar functionality

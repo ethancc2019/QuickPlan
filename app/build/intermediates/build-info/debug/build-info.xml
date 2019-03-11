@@ -10,8 +10,10 @@
     density="420dpi"
     format="10"
     plugin-version="3.3.1"
+<<<<<<< EB
     timestamp="1552336079366"
     token="7070180004736191423"
+<<<<<<< Prototype
 <<<<<<< Prototype
 =======
     density="560dpi"
@@ -22,6 +24,12 @@
 >>>>>>> EB
 =======
 >>>>>>> 
+=======
+=======
+    timestamp="1552276613761"
+    token="-4545345107377309275"
+>>>>>>> Added toolbar functionality
+>>>>>>> Added toolbar functionality
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -41,9 +49,13 @@
     <task
         name="instant-run-transform"
 <<<<<<< Prototype
+<<<<<<< Prototype
 <<<<<<< HEAD
 =======
 >>>>>>> 
+=======
+<<<<<<< EB
+>>>>>>> Added toolbar functionality
         duration="10" />
     <task
         name="verifier"
@@ -69,17 +81,46 @@
         type="SPLIT" />
     <artifact
         location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+=======
+        duration="406" />
+    <task
+        name="verifier"
+        duration="1003" />
+
+    <artifact
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+>>>>>>> Added toolbar functionality
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+<<<<<<< EB
         location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+=======
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+>>>>>>> Added toolbar functionality
         type="SPLIT" />
     <artifact
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+<<<<<<< EB
         location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
@@ -87,6 +128,7 @@
         type="SPLIT" />
     <artifact
         location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+<<<<<<< Prototype
 <<<<<<< Prototype
 =======
         duration="95" />
@@ -135,14 +177,32 @@
 >>>>>>> EB
 =======
 >>>>>>> 
+=======
+=======
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+>>>>>>> Added toolbar functionality
+>>>>>>> Added toolbar functionality
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
 <<<<<<< Prototype
+<<<<<<< Prototype
 <<<<<<< HEAD
 =======
 >>>>>>> 
+=======
+<<<<<<< EB
+>>>>>>> Added toolbar functionality
         timestamp="1552336079366"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
@@ -165,17 +225,43 @@
             type="SPLIT" />
         <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+=======
+        timestamp="1552276613761"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+>>>>>>> Added toolbar functionality
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+<<<<<<< EB
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+=======
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+>>>>>>> Added toolbar functionality
             type="SPLIT" />
         <artifact
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+<<<<<<< EB
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
@@ -183,6 +269,7 @@
             type="SPLIT" />
         <artifact
             location="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+<<<<<<< Prototype
 <<<<<<< Prototype
 =======
         timestamp="1552343897204"
@@ -228,6 +315,20 @@
 >>>>>>> EB
 =======
 >>>>>>> 
+=======
+=======
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+>>>>>>> Added toolbar functionality
+>>>>>>> Added toolbar functionality
             type="SPLIT_MAIN" />
     </build>
 

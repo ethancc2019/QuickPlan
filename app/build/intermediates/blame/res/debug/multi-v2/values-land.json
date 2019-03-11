@@ -1,10 +1,38 @@
 {
     "logs": [
         {
+<<<<<<< Prototype
             "outputFile": "/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/Users/ethan.collins335/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/f76e675e6516eb12fcd2f7c5a171851b/res/values-land/values-land.xml",
+=======
+<<<<<<< EB
+            "outputFile": "/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/EthanCC/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f0de8612870ca795319709b25bc3b79a/res/values-land/values-land.xml",
+=======
+            "outputFile": "C:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Keghvart\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7fe083cdcaace5e4853682f800eb55de\\res\\values-land\\values-land.xml",
+>>>>>>> Added toolbar functionality
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+<<<<<<< EB
+                    "source": "/Users/EthanCC/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/59272c18c9a5bcd1f2eea94e998ff69c/res/values-land/values-land.xml",
+=======
+                    "source": "C:\\Users\\Keghvart\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\143e25b9291d3d1a2161ddd8ad844058\\res\\values-land\\values-land.xml",
+>>>>>>> Added toolbar functionality
+>>>>>>> Added toolbar functionality
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

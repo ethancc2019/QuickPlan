@@ -6,5 +6,13 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_all_tasks">AllTasks</string>
     <string name="title_activity_view_task">ViewTask</string>
+<<<<<<< EB
     <string name="current_date">03/06/2019</string>
+=======
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">QP</string>
+    <string name="nav_header_subtitle">Set a task!</string>
+    <string name="nav_header_desc">Navigation header</string>
+>>>>>>> Added toolbar functionality
 </resources>

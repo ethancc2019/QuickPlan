@@ -1,8 +1,18 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-core-utils:28.0.0@aar">
     <CLASSES>
+<<<<<<< Prototype
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1262cd173a4b0c385d48095a567161ae/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1262cd173a4b0c385d48095a567161ae/res" />
+=======
+<<<<<<< EB
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a71fe1d64fa489acfc5d5a1411e103e8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a71fe1d64fa489acfc5d5a1411e103e8/jars/classes.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/037c9445b3fb83b6ae3d15f1497ecc72/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/037c9445b3fb83b6ae3d15f1497ecc72/res" />
+>>>>>>> Added toolbar functionality
+>>>>>>> Added toolbar functionality
     </CLASSES>
     <JAVADOC />
     <SOURCES />
