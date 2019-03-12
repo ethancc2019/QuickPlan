@@ -1,42 +1,11 @@
 #Internal package file, do not edit.
-<<<<<<< Prototype
-<<<<<<< Prototype
-<<<<<<< Prototype
-<<<<<<< HEAD
-#Mon Mar 11 12:42:31 PDT 2019
-=======
-#Mon Mar 11 15:38:21 PDT 2019
->>>>>>> EB
-=======
-#Mon Mar 11 12:42:31 PDT 2019
->>>>>>> 
-=======
-<<<<<<< EB
-#Mon Mar 11 12:42:31 PDT 2019
-=======
-#Sun Mar 10 20:57:01 PDT 2019
->>>>>>> Added toolbar functionality
->>>>>>> Added toolbar functionality
-=======
-#Mon Mar 11 22:23:17 PDT 2019
->>>>>>> Rebase and fix with Keg's toolbar feature
+#Mon Mar 11 22:54:36 PDT 2019
 4.path=classes.dex
 8.set=DEX
 6.path=classes.dex
 0.baseType=DIRECTORY
 10.path=classes.dex
 5.baseType=DIRECTORY
-<<<<<<< Prototype
-<<<<<<< Prototype
-<<<<<<< Prototype
-<<<<<<< HEAD
-=======
->>>>>>> 
-=======
-<<<<<<< EB
->>>>>>> Added toolbar functionality
-=======
->>>>>>> Rebase and fix with Keg's toolbar feature
 1.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/18
 8.path=classes.dex
 3.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/19
@@ -44,33 +13,6 @@
 5.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/20
 7.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/16
 9.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/14
-<<<<<<< Prototype
-<<<<<<< Prototype
-<<<<<<< Prototype
-=======
-1.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/11
-8.path=classes.dex
-3.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/14
-4.set=DEX
-5.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/12
-7.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/19
-9.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/15
->>>>>>> EB
-=======
->>>>>>> 
-=======
-=======
-1.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-8.path=classes.dex
-3.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
-4.set=DEX
-5.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
-7.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
-9.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\20
->>>>>>> Added toolbar functionality
->>>>>>> Added toolbar functionality
-=======
->>>>>>> Rebase and fix with Keg's toolbar feature
 1.baseType=DIRECTORY
 0.set=DEX
 6.baseType=DIRECTORY
@@ -83,17 +25,6 @@
 3.path=classes.dex
 10.set=DEX
 5.path=classes.dex
-<<<<<<< Prototype
-<<<<<<< Prototype
-<<<<<<< Prototype
-<<<<<<< HEAD
-=======
->>>>>>> 
-=======
-<<<<<<< EB
->>>>>>> Added toolbar functionality
-=======
->>>>>>> Rebase and fix with Keg's toolbar feature
 0.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/17
 7.path=classes.dex
 9.path=classes.dex
@@ -104,39 +35,6 @@
 6.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/21
 10.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/11
 8.base=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/13
-<<<<<<< Prototype
-<<<<<<< Prototype
-<<<<<<< Prototype
-=======
-0.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/13
-7.path=classes.dex
-9.path=classes.dex
-6.set=DEX
-2.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/16
-4.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/21
-3.baseType=DIRECTORY
-6.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/20
-10.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/17
-8.base=/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/18
->>>>>>> EB
-=======
->>>>>>> 
-=======
-=======
-0.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21
-7.path=classes.dex
-9.path=classes.dex
-6.set=DEX
-2.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-4.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
-3.baseType=DIRECTORY
-6.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
-10.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
-8.base=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
->>>>>>> Added toolbar functionality
->>>>>>> Added toolbar functionality
-=======
->>>>>>> Rebase and fix with Keg's toolbar feature
 2.set=DEX
 8.baseType=DIRECTORY
 9.set=DEX

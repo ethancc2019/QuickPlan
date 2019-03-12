@@ -1,33 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:recyclerview-v7:28.0.0@aar">
     <ANNOTATIONS>
-<<<<<<< Prototype
-<<<<<<< Prototype
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/1948942c6a0f3b8d20190b35b665c703/annotations.zip!/" />
-    </ANNOTATIONS>
-    <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/1948942c6a0f3b8d20190b35b665c703/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/1948942c6a0f3b8d20190b35b665c703/jars/classes.jar!/" />
-=======
-<<<<<<< EB
-=======
->>>>>>> Rebase and fix with Keg's toolbar feature
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/6354563e472f3b11389ace308d0e66b1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/6354563e472f3b11389ace308d0e66b1/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/6354563e472f3b11389ace308d0e66b1/jars/classes.jar!/" />
-<<<<<<< Prototype
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3395873fbd32395b2862864706ae3e4d/annotations.zip!/" />
-    </ANNOTATIONS>
-    <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3395873fbd32395b2862864706ae3e4d/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3395873fbd32395b2862864706ae3e4d/jars/classes.jar!/" />
->>>>>>> Added toolbar functionality
->>>>>>> Added toolbar functionality
-=======
->>>>>>> Rebase and fix with Keg's toolbar feature
     </CLASSES>
     <JAVADOC />
     <SOURCES />

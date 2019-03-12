@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     public static ArrayList<Task> globalTaskList = new ArrayList<>();
     public static ArrayList<Task> globalCompletedTaskList = new ArrayList<>();
-<<<<<<< Prototype
->>>>>>> EB
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,9 +31,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-<<<<<<< EB
 
-=======
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -44,7 +40,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
->>>>>>> Added toolbar functionality
 
         Button createTaskButton = findViewById(R.id.createTaskBtn);
         createTaskButton.setOnClickListener(new View.OnClickListener() {
@@ -54,64 +49,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 openCreateTaskActivity();
             }
         });
-=======
-        @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
-            Toolbar toolbar = findViewById(R.id.toolbar);
-            setSupportActionBar(toolbar);
->>>>>>> Rebase and fix with Keg's toolbar feature
-
-
-            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-            ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                    this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-            drawer.addDrawerListener(toggle);
-            toggle.syncState();
-
-<<<<<<< Prototype
-
     }
-=======
-            NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-            navigationView.setNavigationItemSelectedListener(this);
->>>>>>> Rebase and fix with Keg's toolbar feature
-
-            Button createTaskButton = findViewById(R.id.createTaskBtn);
-            createTaskButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    //openCalendarViewActivity();
-                    openCreateTaskActivity();
-                }
-            });
 
 
-<<<<<<< Prototype
-<<<<<<< Prototype
+
     public void openViewTask(){
         startActivity(new Intent(this, ViewTask.class));
     }
 
-=======
-<<<<<<< EB
->>>>>>> Added toolbar functionality
+
     public void openCalendarViewActivity(){
         startActivity(new Intent(MainActivity.this, CalendarView.class));
     }
-=======
-        }
->>>>>>> Rebase and fix with Keg's toolbar feature
+
 
 
         public void openCreateTaskActivity() {
             startActivity(new Intent(MainActivity.this, CreateTask.class));
         }
 
-        public void openCalendarViewActivity() {
-            startActivity(new Intent(MainActivity.this, CalendarView.class));
-        }
+
 
         public void openCalendarView() {
             startActivity(new Intent(MainActivity.this, CalendarView.class));
@@ -128,7 +85,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             return true;
         }
 
-        @Override
+
+
+    @Override
         public boolean onOptionsItemSelected(MenuItem item) {
             // Handle action bar item clicks here. The action bar will
             // automatically handle clicks on the Home/Up button, so long

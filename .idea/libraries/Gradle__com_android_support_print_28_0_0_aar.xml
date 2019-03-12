@@ -1,33 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:print:28.0.0@aar">
     <ANNOTATIONS>
-<<<<<<< Prototype
-<<<<<<< Prototype
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e3c24f05d511d30d855e8f1cbad5df19/annotations.zip!/" />
-    </ANNOTATIONS>
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e3c24f05d511d30d855e8f1cbad5df19/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e3c24f05d511d30d855e8f1cbad5df19/res" />
-=======
-<<<<<<< EB
-=======
->>>>>>> Rebase and fix with Keg's toolbar feature
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/19ef4e76aee3234249e3eab6048c5b7f/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/19ef4e76aee3234249e3eab6048c5b7f/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/19ef4e76aee3234249e3eab6048c5b7f/jars/classes.jar!/" />
-<<<<<<< Prototype
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2bffcce9d4da32840d25ae59e57f6ad5/annotations.zip!/" />
-    </ANNOTATIONS>
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2bffcce9d4da32840d25ae59e57f6ad5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2bffcce9d4da32840d25ae59e57f6ad5/res" />
->>>>>>> Added toolbar functionality
->>>>>>> Added toolbar functionality
-=======
->>>>>>> Rebase and fix with Keg's toolbar feature
     </CLASSES>
     <JAVADOC />
     <SOURCES />

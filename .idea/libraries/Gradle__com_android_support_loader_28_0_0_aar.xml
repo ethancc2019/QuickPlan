@@ -1,23 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:loader:28.0.0@aar">
     <CLASSES>
-<<<<<<< Prototype
-<<<<<<< Prototype
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2f436e074fb21c8bac75b7696612b072/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2f436e074fb21c8bac75b7696612b072/res" />
-=======
-<<<<<<< EB
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3b69e474f510a8dd6baa8f762ee326be/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3b69e474f510a8dd6baa8f762ee326be/res" />
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1aba4c3b9bad8c2c5efba17681582c73/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1aba4c3b9bad8c2c5efba17681582c73/res" />
->>>>>>> Added toolbar functionality
->>>>>>> Added toolbar functionality
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3b69e474f510a8dd6baa8f762ee326be/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3b69e474f510a8dd6baa8f762ee326be/res" />
->>>>>>> Rebase and fix with Keg's toolbar feature
     </CLASSES>
     <JAVADOC />
     <SOURCES />
