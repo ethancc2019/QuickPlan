@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< Prototype
 <<<<<<< Prototype
+<<<<<<< Prototype
 <<<<<<< HEAD
 <merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/debug/shaders"/></dataSet></merger>
 =======
@@ -16,3 +17,6 @@
 <merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\src\debug\shaders"/></dataSet></merger>
 >>>>>>> Added toolbar functionality
 >>>>>>> Added toolbar functionality
+=======
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/debug/shaders"/></dataSet></merger>
+>>>>>>> Rebase and fix with Keg's toolbar feature

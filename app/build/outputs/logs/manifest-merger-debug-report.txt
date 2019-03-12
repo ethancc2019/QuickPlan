@@ -1,6 +1,7 @@
 -- Merging decision tree log ---
 manifest
 <<<<<<< Prototype
+<<<<<<< Prototype
 ADDED from /Users/ethan.collins335/Desktop/QuickPlan/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/ethan.collins335/Desktop/QuickPlan/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/ethan.collins335/Desktop/QuickPlan/app/src/main/AndroidManifest.xml:2:1-41:12
@@ -43,6 +44,8 @@ INJECTED from /Users/ethan.collins335/Desktop/QuickPlan/app/src/main/AndroidMani
 INJECTED from /Users/ethan.collins335/Desktop/QuickPlan/app/src/main/AndroidManifest.xml:2:1-41:12
 =======
 <<<<<<< EB
+=======
+>>>>>>> Rebase and fix with Keg's toolbar feature
 ADDED from /Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/main/AndroidManifest.xml:2:1-41:12
@@ -261,6 +264,7 @@ INJECTED from /Users/ethan.collins335/Desktop/QuickPlan/app/src/main/AndroidMani
 		INJECTED from /Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/main/AndroidManifest.xml
 		ADDED from /Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/src/main/AndroidManifest.xml
+<<<<<<< Prototype
 =======
 ADDED from C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\src\main\AndroidManifest.xml:2:1-41:12
@@ -470,3 +474,5 @@ INJECTED from C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\src\m
 		INJECTED from C:\Users\Keghvart\Desktop\Software Engineering\QuickPlan\app\src\main\AndroidManifest.xml
 >>>>>>> Added toolbar functionality
 >>>>>>> Added toolbar functionality
+=======
+>>>>>>> Rebase and fix with Keg's toolbar feature

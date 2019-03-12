@@ -2,16 +2,20 @@
     "logs": [
         {
 <<<<<<< Prototype
+<<<<<<< Prototype
             "outputFile": "/Users/ethan.collins335/Desktop/QuickPlan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/Users/ethan.collins335/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8aa3d91054970da675e712e273c7e1e3/res/values-pa/values-pa.xml",
 =======
 <<<<<<< EB
+=======
+>>>>>>> Rebase and fix with Keg's toolbar feature
             "outputFile": "/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/Users/EthanCC/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/534b7bda2378523a5d1fa5cb5eaea470/res/values-pa/values-pa.xml",
+<<<<<<< Prototype
 =======
             "outputFile": "C:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
             "map": [
@@ -29,6 +33,8 @@
                     "source": "C:\\Users\\Keghvart\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\d69c294fa9be74971ab697e5bdfc3560\\res\\values-pa\\values-pa.xml",
 >>>>>>> Added toolbar functionality
 >>>>>>> Added toolbar functionality
+=======
+>>>>>>> Rebase and fix with Keg's toolbar feature
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -43,7 +49,6 @@
                         "endColumns": "100",
                         "endOffsets": "2935"
                     }
-<<<<<<< EB
                 },
                 {
                     "source": "/Users/ethan.collins335/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d4bbe050641f59af80793a2a5e95f041/res/values-pa/values-pa.xml",
@@ -54,8 +59,6 @@
                         "endColumns": "102,96,104,85,99,112,76,75,90,92,95,93,100,92,94,93,90,90,78,100,103,96,108,98,109,158,99,79",
                         "endOffsets": "203,300,405,491,591,704,781,857,948,1041,1137,1231,1332,1425,1520,1614,1705,1796,1875,1976,2080,2177,2286,2385,2495,2654,2754,2834"
                     }
-=======
->>>>>>> Added toolbar functionality
                 }
             ]
         }

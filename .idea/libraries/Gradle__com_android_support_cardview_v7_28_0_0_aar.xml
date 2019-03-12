@@ -2,6 +2,7 @@
   <library name="Gradle: com.android.support:cardview-v7:28.0.0@aar">
     <CLASSES>
 <<<<<<< Prototype
+<<<<<<< Prototype
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/92fea5cf21d129519b7404ecca11ad09/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/92fea5cf21d129519b7404ecca11ad09/res" />
 =======
@@ -13,6 +14,10 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8500caffe9d05500b3e5a31d7517e5cb/res" />
 >>>>>>> Added toolbar functionality
 >>>>>>> Added toolbar functionality
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/662bba9a674223d6f62a9f6f76bb7d23/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/662bba9a674223d6f62a9f6f76bb7d23/jars/classes.jar!/" />
+>>>>>>> Rebase and fix with Keg's toolbar feature
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -2,6 +2,7 @@
   <library name="Gradle: android.arch.lifecycle:viewmodel:1.1.1@aar">
     <CLASSES>
 <<<<<<< Prototype
+<<<<<<< Prototype
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/17ba144b20a36651b8c3316f14895905/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/17ba144b20a36651b8c3316f14895905/jars/classes.jar!/" />
 =======
@@ -13,6 +14,10 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c66a4acb1b43d31987f5fb43d5152eb1/jars/classes.jar!/" />
 >>>>>>> Added toolbar functionality
 >>>>>>> Added toolbar functionality
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/cd8b93b1ca5ae5caeb284f35788563db/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/cd8b93b1ca5ae5caeb284f35788563db/res" />
+>>>>>>> Rebase and fix with Keg's toolbar feature
     </CLASSES>
     <JAVADOC />
     <SOURCES>

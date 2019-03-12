@@ -1,5 +1,6 @@
 <<<<<<< Prototype
 <<<<<<< Prototype
+<<<<<<< Prototype
 <<<<<<< HEAD
 #Mon Mar 11 13:28:01 PDT 2019
 base.0=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/4
@@ -20,5 +21,9 @@ base.0=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transfor
 base.0=C\:\\Users\\Keghvart\\Desktop\\Software Engineering\\QuickPlan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
 >>>>>>> Added toolbar functionality
 >>>>>>> Added toolbar functionality
+=======
+#Mon Mar 11 22:40:48 PDT 2019
+base.0=/Users/EthanCC/Desktop/QP(Git)/QuickPlan/app/build/intermediates/transforms/dexMerger/debug/4
+>>>>>>> Rebase and fix with Keg's toolbar feature
 path.0=classes.dex
 renamed.0=classes.dex

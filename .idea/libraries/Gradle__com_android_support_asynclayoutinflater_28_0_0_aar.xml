@@ -2,6 +2,7 @@
   <library name="Gradle: com.android.support:asynclayoutinflater:28.0.0@aar">
     <CLASSES>
 <<<<<<< Prototype
+<<<<<<< Prototype
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/08e60e02b107b8a59c861a61d6f8e5a3/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/08e60e02b107b8a59c861a61d6f8e5a3/jars/classes.jar!/" />
 =======
@@ -13,6 +14,10 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/af61b2dccd45ab2037d4bea32a86d92f/jars/classes.jar!/" />
 >>>>>>> Added toolbar functionality
 >>>>>>> Added toolbar functionality
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/9eecf75b08b621a3fdfdca4f8a32b282/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/9eecf75b08b621a3fdfdca4f8a32b282/jars/classes.jar!/" />
+>>>>>>> Rebase and fix with Keg's toolbar feature
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -2,6 +2,7 @@
   <library name="Gradle: com.android.support:customview:28.0.0@aar">
     <CLASSES>
 <<<<<<< Prototype
+<<<<<<< Prototype
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0baf7c2200257d13f38a07fdc47d716a/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0baf7c2200257d13f38a07fdc47d716a/res" />
 =======
@@ -13,6 +14,10 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/569a2a2e8dea628f2e806fc5e5ab03db/jars/classes.jar!/" />
 >>>>>>> Added toolbar functionality
 >>>>>>> Added toolbar functionality
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a305bf73721621f3fc34758a46e46dd9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a305bf73721621f3fc34758a46e46dd9/jars/classes.jar!/" />
+>>>>>>> Rebase and fix with Keg's toolbar feature
     </CLASSES>
     <JAVADOC />
     <SOURCES />

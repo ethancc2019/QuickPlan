@@ -2,6 +2,7 @@
   <library name="Gradle: com.android.support.test:monitor:1.0.2@aar">
     <CLASSES>
 <<<<<<< Prototype
+<<<<<<< Prototype
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/e6dd683af4f14cd9e3a8e5250635633f/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/e6dd683af4f14cd9e3a8e5250635633f/res" />
 =======
@@ -13,6 +14,10 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/b888adc383525e18e8664f12a5e9764c/jars/classes.jar!/" />
 >>>>>>> Added toolbar functionality
 >>>>>>> Added toolbar functionality
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/b0db63f17b883538fa296f95a3c08ab0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/b0db63f17b883538fa296f95a3c08ab0/res" />
+>>>>>>> Rebase and fix with Keg's toolbar feature
     </CLASSES>
     <JAVADOC />
     <SOURCES>
