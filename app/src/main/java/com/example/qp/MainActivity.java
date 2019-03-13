@@ -3,6 +3,8 @@ package com.example.qp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -12,6 +14,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.sql.Time;
 import java.util.ArrayList;
@@ -30,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        Button createTaskButton = findViewById(R.id.createTaskBtn);
+        createTaskButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //openCalendarViewActivity();
+                openCreateTaskActivity();
+            }
+        });
     }
 
     protected void onResume()
@@ -39,14 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         displayTaskToCard();
 
-        Button createTaskButton = findViewById(R.id.createTaskBtn);
-        createTaskButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //openCalendarViewActivity();
-                openCreateTaskActivity();
-            }
-        });
+
 
         Button viewTask1 = findViewById(R.id.viewTask1);
         viewTask1.setOnClickListener(new View.OnClickListener() {
@@ -72,10 +76,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(myIntent);
     }
 
-    public void openCreateTaskActivity()
-    {
-        startActivity(new Intent(MainActivity.this, CreateTask.class));
-    }
+
 
     public void displayTaskToCard()
     {
@@ -145,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         public void openCreateTaskActivity() {
-            startActivity(new Intent(MainActivity.this, CreateTask.class));
+            startActivity(new Intent(this, CreateTask.class));
         }
 
 
