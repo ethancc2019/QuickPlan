@@ -8,31 +8,21 @@
             android:id="@+id/nav_calendar"
             android:icon="@drawable/ic_calendar_with_a_clock_time_tools"
             android:title="Calendar" />
-        <item
-            android:id="@+id/nav_notes"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Notes" />
+
         <item
             android:id="@+id/nav_completed_tasks"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="View Completed Tasks" />
+            android:title="Completed Tasks" />
+        <item
+            android:id="@+id/nav_reminders"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Reminders" />
         <item
             android:id="@+id/nav_tools"
             android:icon="@drawable/ic_menu_manage"
             android:title="Tools" />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+
 
 </menu>

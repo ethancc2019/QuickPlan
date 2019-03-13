@@ -37,17 +37,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/optionButton02"
-            android:layout_width="110dp"
-            android:layout_height="38dp"
-            android:layout_marginStart="280dp"
-            android:layout_marginLeft="280dp"
-            android:layout_marginTop="100dp"
-            android:text="..."
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <TextView
             android:id="@+id/taskName02"
             android:layout_width="126dp"
@@ -59,6 +48,7 @@
             android:enabled="true"
             android:inputType="text"
             android:singleLine="true"
+            android:text="COMP 350 Project"
             android:textColor="@android:color/background_dark"
             app:layout_constraintStart_toEndOf="@+id/taskTitle1"
             app:layout_constraintTop_toTopOf="parent" />
@@ -75,6 +65,7 @@
             android:ems="10"
             android:enabled="false"
             android:inputType="date"
+            android:text="03/13/2019"
             android:textColor="@android:color/background_dark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -87,23 +78,23 @@
             android:layout_height="22dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="40dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:editable="true"
             android:text="Due Date"
             app:layout_constraintEnd_toStartOf="@+id/numPriority02"
-            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintHorizontal_bias="0.151"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/taskName02" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="55dp"
             android:layout_height="19dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:text="Priority"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -112,13 +103,15 @@
             android:id="@+id/numPriority02"
             android:layout_width="27dp"
             android:layout_height="39dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:editable="true"
             android:inputType="number"
             android:singleLine="true"
+            android:text="3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/description02"
@@ -143,6 +136,7 @@
             android:gravity="start"
             android:inputType="textMultiLine"
             android:singleLine="false"
+            android:text="Give prototype presentation"
             android:textColor="@android:color/background_dark"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/description02" />
@@ -161,8 +155,8 @@
             android:id="@+id/viewTask1"
             android:layout_width="234dp"
             android:layout_height="195dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginLeft="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
             android:background="@android:color/transparent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/checkBox6" />
@@ -196,17 +190,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/optionButton03"
-            android:layout_width="110dp"
-            android:layout_height="38dp"
-            android:layout_marginStart="280dp"
-            android:layout_marginLeft="280dp"
-            android:layout_marginTop="100dp"
-            android:text="..."
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <TextView
             android:id="@+id/taskName03"
             android:layout_width="126dp"
@@ -216,6 +199,7 @@
             android:layout_marginTop="8dp"
             android:enabled="true"
             android:singleLine="true"
+            android:text="Study for 362 Test"
             android:textColor="@android:color/background_dark"
             app:layout_constraintStart_toEndOf="@+id/taskTitle2"
             app:layout_constraintTop_toTopOf="parent" />
@@ -228,6 +212,7 @@
             android:layout_marginLeft="48dp"
             android:ems="10"
             android:enabled="false"
+            android:text="03/14/2019"
             android:textColor="@android:color/background_dark"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dueDate03" />
@@ -247,7 +232,7 @@
             android:id="@+id/textView4"
             android:layout_width="55dp"
             android:layout_height="19dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="44dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:text="Priority"
@@ -258,11 +243,13 @@
             android:id="@+id/numPriority03"
             android:layout_width="27dp"
             android:layout_height="39dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:editable="true"
             android:inputType="number"
             android:singleLine="true"
+            android:text="5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -287,6 +274,7 @@
             android:gravity="start"
             android:inputType="textMultiLine"
             android:singleLine="false"
+            android:text="Study midtem and do study sets"
             android:textColor="@android:color/background_dark"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/description03" />
@@ -305,8 +293,8 @@
             android:id="@+id/viewTask2"
             android:layout_width="230dp"
             android:layout_height="196dp"
-            android:layout_marginStart="48dp"
-            android:layout_marginLeft="48dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
             android:background="@android:color/transparent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -320,6 +308,7 @@
         android:layout_marginEnd="36dp"
         android:layout_marginRight="36dp"
         android:layout_marginBottom="36dp"
+        android:onClick="openCreateTaskActivity"
         android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

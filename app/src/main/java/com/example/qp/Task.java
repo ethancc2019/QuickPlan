@@ -26,24 +26,14 @@ public class Task {
 
     //For prototype
     public Task() {
-        this.taskName = "";
-        this.dueDate = "";
+        this.taskName = "Comp 350 Presentation";
+        this.dueDate = "2/13/2019";
         this.timeDueDate = null;
-        this.priority = 0;
-        this.description = "";
+        this.priority = 3;
+        this.description = "Give prototype presentation";
         this.completed = false;
     }
-    /*
-    //Overloaded constuctor
-    public Task(String taskName, Date dueDate, Time timeDueDate, int priority, String description) {
-        this.taskName = taskName;
-        this.dueDate = dueDate;
-        this.timeDueDate = timeDueDate;
-        this.priority = priority;
-        this.description = description;
-        this.completed = false;
-    }
-    */
+
     public String getTaskName() {
         return taskName;
     }

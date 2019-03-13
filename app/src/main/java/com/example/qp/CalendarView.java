@@ -55,14 +55,7 @@ public class CalendarView extends AppCompatActivity {
 
         //Using fall back constructor for fake data/testing
         globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
-        globalTaskList.add(new Task());
+
 
     }
 
