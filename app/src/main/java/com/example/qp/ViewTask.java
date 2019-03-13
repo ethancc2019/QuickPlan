@@ -1,11 +1,17 @@
 package com.example.qp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import java.sql.Time;
 
 public class ViewTask extends AppCompatActivity {
 
@@ -15,15 +21,39 @@ public class ViewTask extends AppCompatActivity {
         setContentView(R.layout.activity_view_task);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-//        FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
     }
 
+    protected void onResume()
+    {
+        super.onResume();
+        setContentView(R.layout.activity_view_task);
+        Intent myIntent = getIntent();
+
+        displayTaskToCard(myIntent.getIntExtra("index",0));
+
+    }
+
+    public void displayTaskToCard(int index)
+    {
+        //Dummy task fields
+        if (!MainActivity.globalTaskList.isEmpty())
+        {
+            //card 1
+            if (MainActivity.globalTaskList.get(index) != null)
+            {
+                TextView taskName = findViewById(R.id.editText11);
+                taskName.setText(MainActivity.globalTaskList.get(index).getTaskName());
+
+                TextView dueDate = findViewById(R.id.editText12);
+                dueDate.setText(MainActivity.globalTaskList.get(index).getDueDate());
+
+                TextView description = findViewById(R.id.editText14);
+                description.setText(MainActivity.globalTaskList.get(index).getDescription());
+
+                EditText priority = findViewById(R.id.editText13);
+                priority.setText(String.format("%d", MainActivity.globalTaskList.get(index).getPriority()));
+
+            }
+        }
+    }
 }

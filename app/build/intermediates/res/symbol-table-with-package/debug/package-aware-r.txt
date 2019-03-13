@@ -1095,6 +1095,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -1106,7 +1107,6 @@ id decor_content_parent
 id default_activity_button
 id description02
 id descriptionText02
-id descriptionText04
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub

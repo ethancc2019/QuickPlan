@@ -4,34 +4,46 @@ import java.sql.Time;
 import java.util.Date;
 
 public class Task {
-    public String taskName;
-    public String dueDate;
-    public Time timeDueDate;
-    public int priority;
-    public String description;
-    public boolean completed;
+
+    private String taskName;
+    //private Date dueDate;
+    private String dueDate;
+    private Time timeDueDate;
+    private int priority;
+    //private String priority;
+    private String description;
+    private boolean completed;
 
     //Default constuctor
-    public Task(String taskName, String  dueDate, Time timeDueDate, int priority, String description) {
+    public Task(String taskName, String  dueDate, Time timeDueDate, int priority, String description, boolean completed) {
         this.taskName = taskName;
         this.dueDate = dueDate;
         this.timeDueDate = timeDueDate;
         this.priority = priority;
         this.description = description;
+        this.completed = completed;
     }
 
-    // Fall back Constructor
-    //Constructor for testing and getting fake data
+    //For prototype
     public Task() {
-        this.taskName = "Test";
-        this.dueDate = "01/01/2019";
-        this.timeDueDate = new Time(12, 0,0);
+        this.taskName = "";
+        this.dueDate = "";
+        this.timeDueDate = null;
         this.priority = 0;
-        this.description = "Test Description";
-
-
+        this.description = "";
+        this.completed = false;
     }
-
+    /*
+    //Overloaded constuctor
+    public Task(String taskName, Date dueDate, Time timeDueDate, int priority, String description) {
+        this.taskName = taskName;
+        this.dueDate = dueDate;
+        this.timeDueDate = timeDueDate;
+        this.priority = priority;
+        this.description = description;
+        this.completed = false;
+    }
+    */
     public String getTaskName() {
         return taskName;
     }
@@ -40,9 +52,9 @@ public class Task {
         this.taskName = taskName;
     }
 
-    public String getDueDate() {
-        return dueDate;
-    }
+    //temporary: public Date getDueDate() {
+    public String getDueDate() { return dueDate; }
+
 
     public void setDueDate(String dueDate) {
         this.dueDate = dueDate;
@@ -60,13 +72,15 @@ public class Task {
         return priority;
     }
 
-    public void setPriority(int priority) {
-        this.priority = priority;
-    }
+    public void setPriority(int priority) { this.priority = priority; }
 
     public String getDescription() {
         return description;
     }
+
+    public boolean isCompleted() { return completed; }
+
+    public void setCompleted(boolean completed) { this.completed = completed; }
 
     public void setDescription(String description) {
         this.description = description;
@@ -80,6 +94,7 @@ public class Task {
                 ", timeDueDate=" + timeDueDate +
                 ", priority=" + priority +
                 ", description='" + description + '\'' +
+                ", completed='" + completed + '\'' +
                 '}';
     }
 }

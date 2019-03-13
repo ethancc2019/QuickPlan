@@ -71,7 +71,7 @@ public class CalendarView extends AppCompatActivity {
         for(int i=0; i < globalTaskList.size(); i++)
         {
             if(date.equals(globalTaskList.get(i).getDueDate()))
-                taskNames.add(globalTaskList.get(i).taskName);
+                taskNames.add(globalTaskList.get(i).getTaskName());
         }
         adapter.updateData(taskNames);
     }

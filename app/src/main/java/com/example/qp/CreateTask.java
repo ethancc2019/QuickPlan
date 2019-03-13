@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 
 public class CreateTask extends AppCompatActivity {
@@ -31,10 +32,10 @@ public class CreateTask extends AppCompatActivity {
                 EditText taskNotes = (EditText) findViewById(R.id.taskNotes);
                 EditText dueDate = (EditText) findViewById(R.id.taskDueDate);
 
-                newTask.description = taskNotes.getText().toString();
-                newTask.taskName = taskName.getText().toString();
+                newTask.setDescription(taskNotes.getText().toString());
+                newTask.setTaskName(taskName.getText().toString());
                 newTask.setPriority(2);
-                newTask.dueDate = dueDate.getText().toString();
+                newTask.setDueDate(dueDate.getText().toString());
 
                 saveTask(newTask);
                 goBackToHomepage();
@@ -60,11 +61,13 @@ public class CreateTask extends AppCompatActivity {
     }
 
 
-    public void printNow(){
-        System.out.println("Hello");
-    }
 
     public void newAnthonyMethod(){
         //new method
     }
+
+    public void printNow(){
+        System.out.println("Hello");
+    }
+
 }
